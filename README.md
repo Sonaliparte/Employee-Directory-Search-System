@@ -196,8 +196,4 @@ DATABASE_URL=postgresql+psycopg://postgres:YOUR_PASSWORD@localhost:5432/employee
 VITE_API_BASE_URL=http://127.0.0.1:8000
 ```
 
-Do not commit actual `.env` files or passwords to GitHub.
 
-## Author
-
-Your Name
