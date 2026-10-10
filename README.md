@@ -77,6 +77,8 @@ Integrates with FastAPI through SQLAlchemy and Psycopg.
 
 The employees table stores the employee ID, name, email, department, designation, and date of joining. Employee email addresses are unique.
 
+*Note: The assignment prefers MySQL; PostgreSQL was chosen as an alternative relational database for this implementation.*
+
 ## Search Performance Optimization
 
 The application uses the following techniques to make employee searches more efficient:
