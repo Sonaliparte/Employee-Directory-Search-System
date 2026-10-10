@@ -1,8 +1,8 @@
-Employee Directory Search System
+## Employee Directory Search System
 
 A full-stack employee directory application built using React, Vite, Python, FastAPI, and PostgreSQL. It allows users to search for employees by name or department and view their details.
 
-Tech Stack
+# Tech Stack
 
 Frontend: React, Vite
 
@@ -16,7 +16,7 @@ Database Driver: Psycopg
 
 Validation: Pydantic
 
-Setup Instructions
+# Setup Instructions
 
 1. Clone the Repository
 
@@ -36,7 +36,7 @@ DATABASE_URL=postgresql+psycopg://postgres:YOUR_PASSWORD@localhost:5432/employee
 
 Replace YOUR_PASSWORD with your PostgreSQL password. Create the employee_directory database in PostgreSQL before starting the backend.
 
-Run the backend:
+# Run the backend:
 
 python -m uvicorn app.main:app --reload
 
@@ -44,16 +44,16 @@ API documentation: http://127.0.0.1:8000/docs
 
 3. Setup the Frontend
 
-Open a new terminal:
+# Open a new terminal:
 
 cd frontend
 npm install
 
-Create a frontend/.env file:
+# Create a frontend/.env file:
 
 VITE_API_BASE_URL=http://127.0.0.1:8000
 
-Start the frontend:
+# Start the frontend:
 
 npm run dev
 
@@ -63,7 +63,7 @@ Database Choice
 
 PostgreSQL is used because it is a reliable relational database suitable for structured employee records.
 
-Reasons for choosing PostgreSQL:
+# Reasons for choosing PostgreSQL:
 
 Stores employee information in a structured table.
 
